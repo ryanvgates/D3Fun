@@ -1,0 +1,25 @@
+{
+"nodes":[
+{"name":"General Fund"},
+{"name":"Ad Valorem Taxes - Operating"},   
+{"name":"Sales and Use Tax"},
+{"name":"Franchise Fees"},
+{"name":"Utility Service Taxes"},
+{"name":"City Attorney"},
+{"name":"City Auditor"},
+{"name":"City Clerk"},
+{"name":"City Commission"},
+{"name":"City Manager"}
+],
+"links":[
+{"source":1,"target":0,"value":97569296},        
+{"source":2,"target":0,"value":4882276},
+{"source":3, "target":0,"value":15228206},
+{"source":4,"target":0,"value":36592965},
+{"source":0,"target":5,"value":3427604},
+{"source":0,"target":6,"value":841791},
+{"source":0,"target":7,"value":897147},
+{"source":0,"target":8,"value":1097238},
+{"source":0,"target":9,"value":4623459}
+]
+}
