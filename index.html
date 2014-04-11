@@ -68,9 +68,19 @@ var path = sankey.link();
 // Changed to budget
 function do_with_budget(energy) {
 
+  var nodeMap = {};
+  graph.nodes.forEach(function(x) { nodeMap[x.name] = x; });
+  graph.links = graph.links.map(function(x) {
+    return {
+      source: nodeMap[x.source],
+      target: nodeMap[x.target],
+      value: x.value
+    };
+  });
+
   sankey
-      .nodes(energy.nodes)
-      .links(energy.links)
+      .nodes(graph.nodes)
+      .links(graph.links)
       .layout(32);
 
   var link = svg.append("g").selectAll(".link")
