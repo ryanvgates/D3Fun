@@ -1,8 +1,5 @@
-D3Fun
-=====
+This project is no longer maintained. The up to date version can be found below.
 
-Just a testing ground for D3 right now.
+Source: https://github.com/CodeForFtL/SimpleSankey
 
-Link to the page is http://ryanvgates.github.io/D3Fun/
-
-This repository is licensed under the <a href="http://unlicense.org/">Unlicense</a>.
+Page: http://codeforftl.org/SimpleSankey/
